@@ -143,7 +143,7 @@ Plugin.prototype.onKeyDown = function (event) {
 			.blur();
 
 		$($tabs[ind]) // select specified tab
-			.addClass('selected');
+			.addClass('selected')
 			.attr({
         'aria-selected': true,
         'tabindex': 0
